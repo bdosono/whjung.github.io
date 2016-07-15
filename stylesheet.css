@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic|Permanent+Marker");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Open Sans";
+	background-color: #ecf0f1;
+}
+
+/*Menu Option*/
+
+#header {
+	background-color: #f39c12;
+	height: 100px;
+	width: 100%;
+}
+
+.container {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#logoArea {
+	font-family: "Permanent Marker";
+	font-size: 45px;
+	color: #fff;
+	float: left;
+	width: 400px;
+	height: 100px;
+}
+
+#logoArea a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#quote {
+	font-family: "Lucida Calligraphy";
+	font-size: 13px;
+}
+
+#navArea {
+	height: 100px;
+	float: right;
+}
+
+#nav {
+	list-style: none;
+	margin-top: 30px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #fff;	
+}
+
+
+#nav li {
+	float: left;
+	margin-left: 20px;
+	font-weight: bold;
+	padding: 6px;
+	border: 3px solid #fff;
+	border-radius: 6px;
+
+}
+
+#nav li:hover {
+	background-color: #c0392b;
+}
+
+/*Main Page Body*/
+
+.page {
+	background-color: #fff;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 72px;
+	color: #f39c12;
+	font-family: "Georgia";
+	padding: 10px 0 10px 0;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+}
+
+table {
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+}
+
+/*Last Line*/
+
+#footer {
+	background-color: #f39c12;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	padding-top: 20px;
+	text-align: center;
+	font-weight: bold; 	
+}
+
+/*About Me*/
+
+.aboutme {
+	text-align: justify;
+	text-indent: 20px;
+	padding: 20px 20px 20px 20px;
+}
+
+.paragraph{
+	border: 3px solid #f39c12;
+	margin: 50px 50px 50px 50px;
+}
+
+.profile-pic {
+	margin: 0 auto;
+}
+
+/*Interests*/
+.picSM {
+	height: 300px;
+	width: 600px;
+	margin-top: 10px;
+}
+.picDA {
+	height: 300px;
+	width: 400px;
+	margin-top: 30px;
+}
+
+.picBM {
+	height: 300px;
+	width: 400px;
+	margin-top: 30px;
+}
+
+.picE {
+	height: 300px;
+	width: 400px;
+	margin-top: 30px;
+}
+
+h3 {
+	color: #f39c12;
+	font-weight: bold;
+	border-bottom: 3px solid #f39c12;
+}
+
+h3 > p {
+	text-align: justify;
+}
+
+/*Projects*/
+
+#project1 li {
+	list-style: none;
+}
+
+#project1 li:before {
+	content: "\2022";
+	color: #f39c12;
+}
+
+.edutech {
+	height: 400px;
+}
+
+.edutech:hover {
+	-moz-box-shadow: 0 0 20px #ccc; 
+	-webkit-box-shadow: 0 0 20px #ccc; 
+	box-shadow: 0 0 20px #ccc;
+}
+
+#project2 li {
+	list-style: none;
+}
+
+#project2 li:before {
+	content: "\2022";
+	color: #f39c12;
+}
+
+.pbli {
+	height: 400px;
+}
+
+.pbli:hover {
+	-moz-box-shadow: 0 0 20px #ccc; 
+	-webkit-box-shadow: 0 0 20px #ccc; 
+	box-shadow: 0 0 20px #ccc;
+}
