@@ -46,6 +46,7 @@ body {
 #navArea {
 	height: 100px;
 	float: right;
+	min-width: 300px;
 }
 
 #nav {
